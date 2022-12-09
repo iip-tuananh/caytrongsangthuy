@@ -7,7 +7,6 @@
                <span style="font-size: 14px; margin-right: 8px;">Cơ Sở </span><span style="font-size: 36px;">Cây trồng Sáng Thủy</span> 
             </h2>
             <div class="info-footer">
-               <p>{{$setting->webname}}</p>
                @if ($setting->address1)
                <p>VPGD: {{$setting->address1}}</p>
                @endif

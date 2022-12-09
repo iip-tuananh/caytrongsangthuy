@@ -1,6 +1,6 @@
 @extends('layouts.main.master')
 @section('title')
-{{$setting->company}}
+Cây trồng Sáng Thủy
 @endsection
 @section('description')
 {{$setting->webname}}

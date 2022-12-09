@@ -2,12 +2,22 @@
    <div class="footer-article">
       <div class="wrap-content d-flex align-items-start justify-content-between">
          <div class="footer-news ft-1">
-            <h2 class="title-footer">{{$setting->company}}</h2>
+            <h2 class="title-footer">
+               <span style="font-size: 20px;">Công ty TNHH Cây xanh Hiếu Phượng</span><br>
+               <span style="font-size: 14px; margin-right: 8px;">Cơ Sở </span><span style="font-size: 36px;">Cây trồng Sáng Thủy</span> 
+            </h2>
             <div class="info-footer">
                <p>{{$setting->webname}}</p>
+               @if ($setting->address1)
                <p>VPGD: {{$setting->address1}}</p>
+               @endif
+               @if ($setting->address2)
                <p>Địa chỉ: {{$setting->address2}}</p>
+               @endif
                <p>Hotline: <span style="color:#f1c40f;">{{$setting->phone1}}</span></p>
+               @if ($setting->phone2)
+               <p>Số điện thoại: <span style="color:#f1c40f;">{{$setting->phone2}}</span></p>
+               @endif
                <p>Email: <a href="mailto:{{$setting->email}}" target="_blank">{{$setting->email}}</a></p>
                <p>Website: <a href="{{route('home')}}">{{route('home')}}</a></p>
             </div>
@@ -24,7 +34,7 @@
                <a href="" target="_blank">
                <img src="{{url('frontend/images/40-gg-w-86121.png')}}" alt="gg" title="gg" loading="lazy"/>
                </a>
-               <a href="" target="_blank">
+               <a href="{{$setting->facebook}}" target="_blank">
                <img src="{{url('frontend/images/40-fb-w-56690.png')}}" alt="Fb" title="Fb" loading="lazy"/>
                </a>
             </div>

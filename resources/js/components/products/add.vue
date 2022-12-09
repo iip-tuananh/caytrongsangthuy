@@ -141,7 +141,7 @@
                   <vs-select-item value="0" text="Không" />
                 </vs-select>
               </div>
-              <div class="form-group">
+              <!-- <div class="form-group">
                 <label>Thông số kỹ thuật</label>
                 <div v-for="(item, index) in objData.size" :key="index">
                   <div class="row">
@@ -177,7 +177,7 @@
                 <el-button size="small" @click="addInput('size')"
                   >Thêm thông số</el-button
                 >
-              </div>
+              </div> -->
             </div>
           </div> 
         </div>

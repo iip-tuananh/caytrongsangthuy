@@ -6,23 +6,20 @@
                <marquee behavior="" direction="">{{$setting->company}}</marquee>
             </span>
          </div>
-         <div class="social social-header"> <span>Chia sẻ MXH: </span>
-            <a href="" target="_blank">
+         <div class="social social-header"> <span>Liên kết MXH: </span>
+            <a href="{{$setting->google}}" target="_blank">
             <img src="{{url('frontend/images/25-yt-85181.png')}}" alt="Yt" title="Yt"/>
             </a>
-            <a href="" target="_blank">
+            <a href="https://www.google.com/" target="_blank">
             <img src="{{url('frontend/images/25-gg-99151.png')}}" alt="gg" title="gg"/>
             </a>
             <a href="{{$setting->facebook}}" target="_blank">
             <img src="{{url('frontend/images/25-fb-30530.png')}}" alt="Fb" title="Fb"/>
             </a>
+            <a href="{{$setting->GA}}" target="_blank">
+            <img src="{{url('frontend/images/shopee2.png')}}" alt="Shopee" title="Shopee" style="width: 25px; height: 25px"/>
+            </a>
          </div>
-         {{-- <div class="w-clear  social menu-header-top ">
-            <a href="{{url('frontend/CTL-DG.pdf')}}" target="_blank"><i class="fa fa-download" aria-hidden="true"></i> Catalogue</a> | 
-            <a href="{{route('pagecontent',['slug'=>'gioi-thieu'])}}">Giới thiệu</a> | 
-            <a href="{{route('allListBlog')}}">Tin tức</a> | 
-            <a href="{{route('lienHe')}}">Liên hệ</a> 
-         </div> --}}
       </div>
    </div>
 </div>

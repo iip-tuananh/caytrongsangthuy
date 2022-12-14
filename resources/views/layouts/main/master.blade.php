@@ -71,6 +71,9 @@
          <div class="animated infinite pulse kenit-alo-circle-fill"></div>
          <i><img src="{{asset('frontend/images/hl.png')}}" alt="Hotline"></i>
       </a>
+      <a class="btn-shopee btn-frame" href="{{$setting->GA}}" target="_blank">
+         <img src="{{asset('frontend/images/shopee2.png')}}" alt="Shopee">
+      </a>
       <!-- Modal notify -->
       <div class="modal modal-custom fade" id="popup-notify" tabindex="-1" role="dialog" aria-labelledby="popup-notify-label" aria-hidden="true">
          <div class="modal-dialog modal-dialog-top modal-md" role="document">

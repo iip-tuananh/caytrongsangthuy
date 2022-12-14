@@ -87,7 +87,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label>Google</label>
+                  <label>Youtube</label>
                   <vs-input
                     type="text"
                     size="default"
@@ -96,7 +96,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label>Code Google analytics</label>
+                  <label>Shopee</label>
                   <vs-input
                     type="text"
                     size="default"

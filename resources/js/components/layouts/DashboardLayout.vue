@@ -175,10 +175,10 @@ export default {
             //   name: "Quản lý đối tác",
             //   path: "/partner",
             // },
-            {
-              name: "Thư viện ảnh",
-              path: "/prize",
-            },
+            // {
+            //   name: "Thư viện ảnh",
+            //   path: "/prize",
+            // },
             // {
             //   name: "Video",
             //   path: "/video",

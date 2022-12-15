@@ -5,7 +5,7 @@
         <div class="col-md-12 grid-margin stretch-card">
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Thương hiệu</h4>
+              <h4 class="card-title">Loại sản phẩm</h4>
               <router-link class="nav-link" :to="{name:'add_type_cate'}">
                 <vs-button type="gradient" style="float:right;">Thêm mới</vs-button>
               </router-link>
@@ -18,7 +18,7 @@
               <vs-table :data="list">
                 <template slot="thead">
                   <vs-th>ID</vs-th>
-                  <vs-th>Tên</vs-th>
+                  <vs-th>Tên loại sản phẩm</vs-th>
                   <vs-th>Thuộc danh mục</vs-th>
                   <vs-th>Trạng thái</vs-th>
                   <vs-th>Hành động</vs-th>

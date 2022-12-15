@@ -21,7 +21,7 @@
               <vs-table max-items="5" pagination :data="list">
                 <template slot="thead">
                   <vs-th>ID</vs-th>
-                  <vs-th>Tên</vs-th>
+                  <vs-th>Tiêu đề</vs-th>
                   <vs-th>Danh mục</vs-th>
                   <vs-th>Hành động</vs-th>
                 </template>
@@ -29,7 +29,7 @@
                   <vs-tr :key="indextr" v-for="(tr, indextr) in data">
                     <vs-td :data="tr.quiz_id">{{tr.quiz_id}}</vs-td>
                     <vs-td :data="tr.name">{{tr.title}}</vs-td>
-                    <vs-td :data="tr.type" v-if="tr.type == 'ho-tro-khanh-hang'">Hỗ trợ chúng tôi</vs-td>  
+                    <vs-td :data="tr.type" v-if="tr.type == 'ho-tro-khanh-hang'">Hỗ trợ khách hàng</vs-td>  
                      <vs-td :data="tr.type" v-if="tr.type == 've-chung-toi'">Về chúng tôi</vs-td>    
                     <vs-td :data="tr.id">
                       <router-link :to="{name:'pageContentEdit',params:{quiz_id:tr.quiz_id,language:tr.language}}">
